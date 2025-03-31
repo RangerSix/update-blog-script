@@ -49,7 +49,7 @@ try {
     $remotes = git remote
     if ($remotes -notmatch "origin") {
         Write-Host "Remote 'origin' does not exist. Adding remote..."
-        git remote add origin https://github.com/yourgitusername/yourgitrepository.git
+        git remote add origin https://github.com/yourgitusername/yourgitrepository.git #Make sure to add your info here!
     } else {
         Write-Host "Remote 'origin' already exists. Skipping addition."
     }
